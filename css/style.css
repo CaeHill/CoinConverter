@@ -4,6 +4,13 @@
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background: none;
     border: none;
     padding: 0;
@@ -16,6 +23,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    gap: 12px;
 }
 
 .divConverter {
@@ -35,6 +44,8 @@ body {
 
     box-sizing: border-box;
     padding: 25px;
+
+    border-radius: 16px;
 }
 
 .top {
@@ -70,8 +81,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 4px;
-
-    background: #F3F4F6;
 }
 
 .valores {
@@ -92,4 +101,20 @@ body {
 
     font-size: 14px;
     color: black;
+}
+
+#grafico {
+    width: 480px;
+    height: 380px;
+
+    background: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    box-sizing: border-box;
+    padding: 25px;
+
+    border-radius: 16px;
 }
