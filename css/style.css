@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    background: #E5E7EB;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.divConverter {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.moedasBox {
+    width: 244px;
+    height: 170px;
+
+    background: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    box-sizing: border-box;
+    padding: 25px;
+
+    border-radius: 16px;
+}
+
+.top {
+    width: 194px;
+    height: 48px;
+
+    display: inline-flex;
+    gap: 70px;
+
+    align-items: center;
+}
+
+#flag {
+    width: 48px;
+    height: 48px;
+
+    background: #DCFCE7;
+    border-radius: 16px;
+}
+
+#upDown {
+    width: 76px;
+    height: 32px;
+
+    background: rgba(16, 185, 129, 0.1);
+    border-radius: 6px;
+}
+
+.bottom {
+    width: 194px;
+    height: 56px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.valores {
+    width: 194px;
+    height: 32px;
+
+    border: none;
+
+    font-size: 24px;
+    color: black;
+}
+
+.moedas {
+    width: 194px;
+    height: 20px;
+
+    border: none;
+
+    font-size: 14px;
+    color: black;
+}
+
+#grafico {
+    width: 480px;
+    height: 380px;
+
+    background: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    box-sizing: border-box;
+    padding: 25px;
+
+    border-radius: 16px;
+}
