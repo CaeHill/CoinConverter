@@ -118,3 +118,29 @@ body {
 
     border-radius: 16px;
 }
+
+#divValor {
+    display: inline-flex;
+    gap: 10px;
+}
+
+#btnConversao {
+    width: 32px;
+    height: 32px;
+
+    background: #10B981;
+    border: none;
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+#valorBase {
+    width: 150px;
+    height: 32px;
+
+    border: none;
+
+    font-size: 24px;
+    color: black;
+}
