@@ -18,6 +18,7 @@ addEventListener('click', convert)
 function convert() {
   const moedabaseformat = moedabase.value.toLowerCase();
 
+  
   const conversaoprincipal = moedaconvertidaprincipal.value.toLowerCase();
     fetch(`https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${moedabaseformat}.json`)
       .then(res => res.json())
